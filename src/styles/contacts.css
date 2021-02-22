@@ -1,0 +1,209 @@
+.contacts-block {
+    padding: 120px;
+    display: flex;
+    flex-direction: row;
+    background: #f2f0ff;
+}
+
+.contacts--text {
+    text-align: left;
+    padding-right: 132px;
+}
+
+.contacts--text__header {
+    font-family: Museo Sans Cyrl;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 66px;
+}
+
+.contact--text__paragraph {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #4F4F4F;
+}
+
+.contact--text__subheader {
+    font-family: Museo Sans Cyrl;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 16px;
+    color: #333333;
+}
+
+.contact--text__link {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    color: #4F4F4F;
+}
+
+.contacts--form {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #6248FF;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 80px;
+    align-self: center;
+    background: white;
+}
+
+.contacts--form__input {
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 425px;
+    height: 40px;
+    margin-bottom: 24px;
+    color: #828282;
+}
+
+.valid {
+    border: 1px solid #0EAC00
+}
+
+.invalid {
+    border: 1px solid #EB5757
+}
+
+.contacts--form__input:focus {
+    border: 1px solid #4F4F4F;
+    outline: none;
+    font-family: Montserrat;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.contacts--form__input::placeholder {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.contacts--form__textarea {
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 425px;
+    height: 40px;
+    margin-bottom: 24px;
+    color: #828282;
+    height: 89px;
+    resize: none;
+}
+
+.contacts--form__textarea:focus {
+    border: 1px solid #4F4F4F;
+    outline: none;
+    font-family: Montserrat;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.contacts--form__textarea::placeholder {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.contacts--form__submit {
+    background: #6248FF;
+    border-radius: 60px;
+    width: 172px;
+    height: 54px;
+    align-self: center;
+    padding: 20px 64px;
+    border: none;
+    color: white;
+    font-family: Museo Sans Cyrl;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 14px;
+}
+
+.contacts--form__submit:hover {
+    background: #7181FC;
+}
+
+@media (max-width: 768px) {
+    .contacts-block {
+        padding-left: 130px;
+        padding-right: 130px;
+        padding-bottom: 48px;
+        padding-top: 48px;
+        flex-direction: column;
+    }
+
+    .contacts--form {
+        padding-right: 42px;
+        padding-left: 42px;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        width: 100%;
+    }
+
+    .contacts--form__input {
+        width: 100%;
+    }
+
+    .contacts--form__textarea {
+        width: 100%;
+    }
+
+    .contacts--text {
+        margin-top: 0;
+        padding-right: 0;
+        margin-bottom: 48px;
+    }
+
+    .contacts--text__header {
+        margin-top: 0;
+        margin-bottom: 32px;
+        text-align: center;
+    }
+
+    .contact--text__subheader {
+        margin-top: 0;
+        margin-bottom: 8px;
+    }
+
+    .contact--text__link {
+        display: block;
+        margin-top: 0;
+        margin-bottom: 16px;
+    }
+}
+
+@media (max-width: 320px) {
+    .contacts-block {
+        padding-top: 48px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .contacts--text__header {
+        text-align: left;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 44px;
+        margin-bottom: 24px;
+    }
+
+
+}

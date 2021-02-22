@@ -1,0 +1,111 @@
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.logo {
+    font-family: Museo Sans Cyrl;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 16px;
+}
+
+.headerNavigation {
+    vertical-align: middle;
+}
+
+.navmenu--item {
+    list-style-type: none;
+    display: inline;
+    margin-right: 32px;
+}
+
+.navmenu--item__link {
+    text-decoration: none;
+    color: black;
+    font-family: Museo Sans Cyrl;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 16px;
+}
+
+.navmenu--item__link:hover {
+    text-decoration: underline;
+}
+
+.language {
+    border-radius: 60px;
+    padding: 10px 16px;
+    font-family: Museo Sans Cyrl;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 16px;
+}
+
+.signbtn {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 13px 24px;
+    background: #6248FF;
+    border-radius: 60px;
+    font-family: Museo Sans Cyrl;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.signbtn:hover {
+    background: #7181FC;
+}
+
+.menucontainer {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .head {
+        padding-right: 40px;
+        padding-left: 60%;
+    }
+
+    .menucontainer {
+        display: block;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .headerNavigation {
+        display: none;
+    }
+
+    .language {
+        display: none;
+    }
+}
+
+@media (max-width: 320px) {
+    .head {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .logo {
+        display: block;
+    }
+
+    .signbtn {
+        display: none;
+    }
+}

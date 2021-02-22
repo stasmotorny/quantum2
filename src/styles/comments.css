@@ -1,0 +1,250 @@
+.smallscreencontainer {
+    display: none;
+}
+
+.widescreencontainer {
+    padding-right: 120px;
+    padding-left: 120px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.arrowcontainer {
+    width: 48px;
+    height: 48px;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    display: flex;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-right: 16px;
+}
+
+.arrowcontainer:hover {
+    border: 1px solid #6248FF;
+}
+
+.nav-left {
+    height: 24px;
+    width: 24px;
+}
+
+.nav-right {
+    height: 24px;
+    width: 24px
+}
+
+.person {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.person__avatar {
+    height: 73px;
+    width: 73px;
+}
+
+.person--info__position {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.person--info {
+    padding-left: 30px;
+}
+
+.comment {
+    display: flex;
+    flex-direction: row;
+    margin-left: -33px;
+    padding-top: 17px;
+}
+
+.header-navigation--block {
+    align-self: flex-start;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.account-comment {
+    align-self: flex-end;
+    width: 50%;
+    padding-left: 33px;
+    text-align: left;
+}
+
+.parences {
+    width: 33px;
+    height: 27px;
+}
+
+.comment-navigation {
+    align-self: flex-start;
+    display: flex;
+    flex-direction: row;
+}
+
+.comments--header {
+    text-align: left;
+    font-family: Museo Sans Cyrl;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 66px;
+    color: #333333;
+    margin: 0;
+    margin-bottom: 64px;
+}
+
+.comment-text {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: Museo Sans Cyrl;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.person--info__name {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Museo Sans Cyrl;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.date {
+    font-family: Museo Sans Cyrl;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #6248FF;
+    margin-top: 31px;
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .commentsContainer {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .widescreencontainer {
+        display: none;
+    }
+
+    .smallscreencontainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .account-comment {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .person {
+        flex-direction: column;
+    }
+
+    .comment {
+        flex-direction: column;
+        margin-left: 0;
+        align-items: center;
+    }
+
+    .person--info {
+        padding-left: 0;
+    }
+
+    .personandcomment {
+        width: 85%;
+    }
+
+    .arrowcontainer {
+        margin: 0;
+    }
+
+    .header-navigation--block {
+        width: 66%;
+    }
+
+    .comments--header {
+        margin-bottom: 56px;
+    }
+
+    .person__avatar {
+        margin-bottom: 10px;
+    }
+
+    .parences{
+        margin-bottom: 16px;
+    }
+}
+
+@media (max-width: 320px) {
+    .commentsContainer {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .comments--header {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 44px;
+        margin-bottom: 40px;
+    }
+
+    .header-navigation--block {
+        width: 100%;
+    }
+
+    .comment {
+        padding-top: 24px;
+    }
+
+    .parences {
+        margin-bottom: 24px;
+    }
+
+    .account-comment {
+        flex-direction: column;
+    }
+
+    .personandcomment {
+        order: 1;
+        width: 100%;
+    }
+
+    .leftarrow {
+        order: 2;
+        margin-top: -40px;
+    }
+
+    .rightarrow {
+        order: 2;
+        align-self: flex-end;
+        margin-top: -48px;
+    }
+
+
+}
