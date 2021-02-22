@@ -1,0 +1,121 @@
+main {
+    background: #efedff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 120px;
+    padding-left: 120px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.textAndBtnContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 133px;
+}
+
+.header2 {
+    font-family: Museo Sans Cyrl;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 72px;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.tradetext {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 48px;
+}
+
+.tradebtn {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 20px 64px;
+    background: #6248FF;
+    border-radius: 60px;
+    font-family: Museo Sans Cyrl;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.tradebtn:hover {
+    background: #7181FC;
+}
+
+.image {
+    width: 482px;
+    height: 519px;
+}
+
+.chartimg {
+    width: 482px;
+    height: 519px;
+}
+
+@media (max-width: 768px) {
+    main {
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 40px;
+        padding-bottom: 24px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textAndBtnContainer {
+        margin: 0;
+        align-items: center;
+    }
+
+    .header2 {
+        margin: 0;
+        text-align: center;
+        margin-bottom: 32px;
+    }
+
+    .tradetext {
+        text-align: center;
+        margin-bottom: 48px;
+    }
+
+    .tradebtn {
+        margin-bottom: 32px;
+    }
+}
+
+@media (max-width: 320px) {
+    main {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .header2 {
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 44px;
+    }
+
+    .image {
+        width: 280px;
+        height: 301px;
+    }
+
+    .chartimg {
+        width: 280px;
+        height: 301px;
+    }
+}
+

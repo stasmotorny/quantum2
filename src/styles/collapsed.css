@@ -1,0 +1,78 @@
+.collapsed-blocks-container {
+    padding-left: 102px;
+    padding-right: 102px;
+}
+
+.header-collapsed-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-right: 120px;
+    padding-left: 120px;
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+
+.collapsed-header {
+    font-family: Museo Sans Cyrl;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 66px;
+    color: #333333;
+    text-align: left;
+    width: 482px;
+}
+
+@media (max-width: 768px) {
+    .header-collapsed-wrapper {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .collapsed-blocks-container {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .collapsed-header {
+        margin-top: 0;
+        margin-bottom: 56px;
+    }
+}
+
+@media (max-width: 320px) {
+    .header-collapsed-wrapper {
+        padding-top: 80px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 64px;
+    }
+
+    .collapsed-header {
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 44px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .collapse-block {
+        padding-right: 24px;
+        padding-left: 16px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        text-align: left;
+    }
+
+    .block-header {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .plus {
+        margin-left: 25px;
+    }
+
+
+}

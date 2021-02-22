@@ -1,0 +1,139 @@
+.container {
+    padding-right: 120px;
+    padding-left: 120px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.LinkedContainers--header {
+    display: block;
+    width: 483px;
+    margin: 0;
+    margin-bottom: 68px;
+    font-family: Museo Sans Cyrl;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 72px;
+    text-align: left;
+}
+
+.infoLine {
+    display: flex;
+    flex-direction: column;
+    max-width: 1098px;
+}
+
+.infoContainer {
+    width: 483px;
+    border: 2px solid #6248FF;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 32px;
+    text-align: left;
+    position: relative;
+    z-index: 10;
+    background: white;
+}
+
+.right {
+    align-self: flex-end;
+}
+
+.number {
+    color: #6248FF;
+    font-family: Museo Sans Cyrl;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    margin: 0;
+}
+
+.subHeader {
+    font-family: Museo Sans Cyrl;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.text {
+    display: inline-block;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #4F4F4F;
+    margin: 0;
+}
+
+.linkContainer {
+    align-self: center;
+    margin-top: -107px;
+    position: relative;
+    z-index: 1;
+    margin-left: 230px;
+}
+
+.leftlink {
+    margin-left: 0;
+    margin-right: 230px;
+}
+
+.link {
+    height: 69.5px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding-right: 40px;
+        padding-left: 40px;
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .infoContainer {
+        width: 329px;
+    }
+
+    .linkContainer {
+        margin-left: 20px;
+    }
+
+    .leftlink {
+        margin-left: 0;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        padding-top: 80px;
+        padding-bottom: 56px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .LinkedContainers--header {
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 44px;
+        width: 100%;
+    }
+
+    .infoContainer {
+        width: 100%;
+        padding: 24px;
+        margin-bottom: 24px;
+    }
+
+    .linkContainer {
+        display: none;
+    }
+
+}

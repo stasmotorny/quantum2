@@ -1,0 +1,44 @@
+.collapse-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.plus {
+    width: 18px;
+    height: 18px;
+    align-self: flex-start;
+    margin-top: 5px;
+}
+
+.text-block {
+    height: max-content;
+}
+
+.block-header {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Museo Sans Cyrl;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.block-text {
+    display: block;
+    margin-bottom: 0;
+}
+
+.collapse-block {
+    margin-bottom: 16px;
+    border: 2px solid #6248FF;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
